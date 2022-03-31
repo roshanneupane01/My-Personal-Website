@@ -127,6 +127,13 @@ img{
 
 .anchor-tag{
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.anchor-tag:hover{
+  color: #EAF6F6;
 }
 
 .skill-row{
@@ -156,4 +163,7 @@ img{
 
 .p-copyright{
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-right: 50px;
 }
