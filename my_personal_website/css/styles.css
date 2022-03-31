@@ -3,7 +3,7 @@
 }
 
 .middle-container {
-
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -64,6 +64,7 @@ h2 {
 }
 
 p {
+  line-height: 2;
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
 }
@@ -78,13 +79,10 @@ h3{
 }
 
 hr{
-  border-style: dotted;
-  border-width: thick;
-  border-top: 100px;
-  font-size: 100px;
-  width: 39px;
-  color: #EAF6F6;
-
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
 }
 
 .bottom-cloud {
@@ -105,7 +103,7 @@ img{
 }
 
 .profile-pic{
-  margin-top: 4rem;
+  margin-top: 3rem;
   width: 20%;
 }
 
@@ -129,16 +127,29 @@ img{
 
 .anchor-tag{
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.anchor-tag:hover{
+  color: #EAF6F6;
 }
 
 .skill-row{
   width: 50%;
   margin: 6.25rem auto 6.25rem;
-  line-height: 2;
 }
 
 .h3-left-align{
   text-align: left;
+}
+
+.p-welcome{
+  position: relative;
+  margin: auto;
+  width: 30%;
+
 }
 
 .p-java{
@@ -152,4 +163,7 @@ img{
 
 .p-copyright{
   color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-right: 10px;
 }
