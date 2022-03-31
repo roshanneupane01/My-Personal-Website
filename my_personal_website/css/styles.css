@@ -81,8 +81,8 @@ h3{
 hr{
   border: dotted #EAF6F6 6px;
   border-bottom: none;
-  width: 4%;
   margin: 100px auto;
+  width: 4%;
 }
 
 .bottom-cloud {
@@ -165,5 +165,5 @@ img{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-  margin-right: 50px;
+  margin-right: 10px;
 }
